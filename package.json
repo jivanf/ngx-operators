@@ -13,7 +13,7 @@
     "lint": "ng lint",
     "bump": "standard-version",
     "prerelease": "npm ci && npm run lint && npm run test && npm run build",
-    "release": "npm publish --folder ./dist/ngx-operators"
+    "release": "npm publish --folder ./dist/ngx-operators --access=public"
   },
   "files": [
     "dist/ngx-operators"
